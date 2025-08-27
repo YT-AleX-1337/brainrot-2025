@@ -1,0 +1,1 @@
+#pragma once            typedef struct{	int X;	int Y;} __attribute__((packed)) Vector2;typedef void (*Procedure)();#define FLAG_SET(n, flag) n |= (flag)#define FLAG_UNSET(n, flag) n &= (~flag);

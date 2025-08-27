@@ -1,0 +1,23 @@
+Memory map:
+
+0x001000 - 0x001FFF		Page Map Level 4
+0x002000 - 0x002FFF		Page Directory Pointer
+0x003000 - 0x003FFF		Page Directory
+0x004000 - 0x004FFF		Page Table 1
+0x005000 - 0x005FFF		Page Table 2
+0x006000 - 0x006FFF		VGA Font
+
+0x007C00 - 0x007DFF		Bootloader part 1
+0x007E00 - 0x0080FF		Bootloader part 2
+0x008100 - 0x0377FF		Kernel
+
+0x038000 - 0x038FFF		Page Table 3
+0x039000 - 0x039FFF		Page Table 4
+0x040000 - 0x040FFF		Page Table 5
+
+0x0A0000 - 0x0AF9FF		VGA Memory
+
+0x100000 - 0x10F9FF		Video Backbuffer
+
+0x200000 - 0x9FFFFF		Allocatable Memory     
+0x110000 - 0x18FFFF		Allocatable Memory Table

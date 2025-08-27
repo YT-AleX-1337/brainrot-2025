@@ -1,0 +1,1 @@
+#pragma onceextern void ItoA(int64_t num, char* buffer, int base);extern void ItoA(int64_t num, char* buffer);extern int StrLen(char* str);extern char* StrCat(char* dest, char* source);
